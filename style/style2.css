@@ -1,0 +1,220 @@
+
+
+body{
+	
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f9fafc;
+	margin:20px;
+	
+}
+
+.top{
+	
+	display: block;
+	font-size: 20px;
+	
+}
+
+ul{
+		
+	list-style-type: none;
+	padding-left: 0px;
+		
+}
+
+li{
+	
+	text-decoration: none;
+	margin-top: 20px;
+		
+}
+
+a{
+	
+	text-decoration: none;
+	color: #69696a;
+	
+}
+
+input{
+	
+	font-size: 20px;
+	background-color: #000;
+	border-radius: 50px;
+	color: white;
+	border: none;
+	height: 40px;
+	width: 100%;
+	
+}
+
+.name{
+	
+	padding-top: 20px;
+	font-weight: bold;
+	/*margin-left: 10px;*/
+	
+}
+
+.circle{
+		
+	display: none;
+		
+}
+
+.paragraph{
+	
+	color: #69696a;
+	border-left: 3px groove rgba(105, 105, 106, 0.4);
+	padding-left:20px;
+	/*margin-left: 10px;*/
+	
+}
+
+.logo{
+	
+	/*margin-left: 10px;*/
+	
+}
+
+.hire{
+	
+	margin-bottom: 30px;
+	
+}
+
+.but{
+	
+	display: flex;
+	
+}
+
+.scroll{
+	
+	flex: 1;
+	
+}
+
+@media only screen and (min-width: 480px){
+	
+	body{
+	
+		margin: 10px;
+		
+	}
+	
+	.top{
+		
+		display: flex;
+		font-size: 20px;
+		padding-left: 30px;
+		padding-right: 0px;
+		padding-top: 10px;
+		
+	}
+	
+	ul{
+		
+		flex: 1;
+		padding-top: 20px;
+		margin-top: 0px;
+		margin-left: 0px;
+		
+	}
+	
+	li{
+	
+		display: inline;
+		padding: 20px;
+		
+	}
+	
+	.name{
+	
+		flex: 1;
+		
+	}
+	
+	.paragraph{
+		
+		padding-left:25px;
+		margin-left: 20px;
+		
+	}
+	
+	.logo{
+	
+		padding-left: 20px;
+		
+	}
+	
+	.hire{
+	
+		width: 130px;
+		height: 50px;
+		
+	}
+	
+	.middle{
+	
+		position: relative;
+		top: 100px;
+		margin-right: 60%;
+		
+	}
+	
+	.scroll{
+	
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 150px;
+		height: 50px;
+		top: 90%;
+		
+	}
+	
+	.circle{
+	
+		display: inline;
+		border-radius: 50%;
+		border: none;
+		position: absolute;
+		
+	}
+	
+	.pink{
+	
+		height: 400px;
+		width:  400px;
+		background-color: rgba(247, 136, 167, 0.6);
+		left: 760px;
+		bottom: 186px;
+		
+	}
+
+	.yellow{
+		
+		height: 300px;
+		width:  300px;
+		background-color: rgba(247, 193, 162, 0.7);
+		left: 996px;
+		bottom: 93px;
+		
+	}
+
+	.purple{
+		
+		height: 200px;
+		width:  200px;
+		background-color: rgba(207, 130, 213, 0.6);
+		left: 1107px;
+		bottom: 342px;
+		
+	}
+	
+}
+
+
+
+
